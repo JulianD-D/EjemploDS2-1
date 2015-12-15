@@ -77,8 +77,8 @@ public class PacmanUI extends JComponent implements Runnable {
         this.imagenes_fantasma_marron[0][2] = ImageIO.read(this.getClass().getResource("/Imagenes/f-marron-izq.png"));
         this.imagenes_fantasma_marron[0][3] = ImageIO.read(this.getClass().getResource("/Imagenes/f-marron-der.png"));
         this.imagene_vida[0] = ImageIO.read(this.getClass().getResource("/Imagenes/vida_p.png"));
-        this.imagene_logo[0] = ImageIO.read(this.getClass().getResource("/Imagenes/logo.png"));
-        this.imagene_logo_univalle[0] = ImageIO.read(this.getClass().getResource("/Imagenes/univalle.png"));
+        //this.imagene_logo[0] = ImageIO.read(this.getClass().getResource("/Imagenes/logo.png"));
+        //this.imagene_logo_univalle[0] = ImageIO.read(this.getClass().getResource("/Imagenes/univalle.png"));
 
         //..
         this.addMouseListener(new MouseAdapter() {
